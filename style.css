@@ -1,0 +1,30 @@
+body{
+
+	background: #f5f5f5;
+}
+#astroTitle{
+	text-align: center;
+
+}
+
+#wrapUp{
+    width: 95%;
+    text-align: center;
+    padding: 1.4em;
+}
+
+#leftSection{
+	width: 40%;
+	padding: 5%;
+	float: left;
+}
+
+#rightSection {
+
+	width: 40%;
+	padding: 5%;
+	float: right;
+}
+p{
+	text-align: center;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE HTML5>
+<html>
+<head>
+	<title> Astro Weight Calculator </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<h1> <span id="astroTitle"></span> </h1>
+</head>
+<body>
+<fieldset id="wrapUp">
+<div id="leftsection">
+	<label> Your Weight </label> <br>
+	<input type="text" id="userWeight"> 
+	
+</div>
+
+<div id="rightsection">
+	<label> Select a planet</label><br>
+	<select id="planetSelected"> </select>
+	<button type="button" onclick="astroCalculator()">Calculate</button>
+	<p id="userOutput">  </p>
+</div>
+
+
+</fieldset>	
+
+	<script src="index.js"></script>
+</body>
+</html>
